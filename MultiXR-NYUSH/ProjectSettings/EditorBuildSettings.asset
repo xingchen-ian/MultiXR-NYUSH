@@ -8,14 +8,21 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lydia_MultiXR/Lydia_Scene/AR_OfflineAvatar.unity
     guid: 84eea7bff6a984b2582d021b4a3d4bc0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lydia_MultiXR/Lydia_Scene/AR_CustomAvatar.unity
     guid: 4b764346d9de84daf88c4ede6e84f96e
+  - enabled: 1
+    path: Assets/Lydia_MultiXR/Lydia_Scene/VR_CustomAvatar.unity
+    guid: 7064cb19dd8d746e4bda8a522aba204f
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6ee38613c746948578152d860d428224,
+      type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 67b0dbf4c2cee40bf99fa71b56d69152,
       type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 6eeb879a510b346fbba527e04a20354e,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: defe44e594d1045c6a73ce89293a2126,
       type: 2}
